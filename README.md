@@ -53,4 +53,4 @@ cat
 =============================================================
 '''
  # References:
- The tool uses Invoke-DCSync by [@monoxgas], with a little change.
+ The tool uses Invoke-DCSync by @monoxgas (Nick Landers), with a little change.
