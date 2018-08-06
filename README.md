@@ -26,6 +26,9 @@ option 2 - from the directory:
  
  A demo for a file with the results (EPoutput.txt):
 
+=============================================================
+
+
  The users below have the SAME password:
  
 SuperMario
