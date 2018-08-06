@@ -3,7 +3,7 @@ A tool that helps domain administrators secure passwords in a domain by reciving
 
 # Overview
 EasyPeasy is a tool that helps its users discover if there are weak passwords in a domain and if there are users with the same passwords.
-
+All the hashes will be deleted.
 
 The tool runs on PowerShell version 4 or 5.
 The tool uses Invoke-DCSync to PowerShell, which extarcts hashes from a domain. 
@@ -18,11 +18,13 @@ The tool runs on PowerShell version 4 or 5, and only domain administrator can ex
 # Check out the results:
 
  Check the output on the screen and go to the file by its path.
+ 
  A demo for a file with the results (EPoutput.txt):
 
  The users below have the SAME password:
  
 SuperMario
+
 Miki Mouse
 
 =============================================================
