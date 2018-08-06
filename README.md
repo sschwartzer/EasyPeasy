@@ -11,10 +11,15 @@ The script is written in PowerShell, it is also contains C Sharp code.
 The tool uses a database of common NTLM hashes.
 
 # Usage:
+The tool runs on PowerShell version 4 or 5, and only domain administrator can execute it.
 
+option 1 - from command line:
+- Open Windows PowerShell (PowerShell - with ExecutionPolicy ByPass), and change directory to the one where the files are downloaded (for example: cd C:\Users\administrator\Downloads).
+- Type ".\ep.ps1" and press Enter.
+
+option 2 - from the directory:
 - (sure that all the files are downloaded and loacted in the same folder) Right click on ep.ps1, and click on 'Run with PowerShell' (PowerShell - with ExecutionPolicy ByPass).
 
-The tool runs on PowerShell version 4 or 5, and only domain administrator can execute it.
 # Check out the results:
 
  Check the output on the screen and go to the file by its path.
