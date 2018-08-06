@@ -40,7 +40,7 @@ cinderella
 
 =============================================================
 
-The users below have the SAME password:
+The users below have the SAME password and a WEAK one:
 
 domainuser
 
