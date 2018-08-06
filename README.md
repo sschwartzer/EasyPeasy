@@ -38,10 +38,6 @@ The user below has a WEAK password:
 
 cinderella
 
-Bob
-
-Marry
-
 =============================================================
 
 The users below have the SAME password:
@@ -51,6 +47,6 @@ domainuser
 cat
 
 =============================================================
-'''
+
  # References:
  The tool uses Invoke-DCSync by @monoxgas (Nick Landers), with a little change.
