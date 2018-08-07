@@ -1,28 +1,26 @@
 # EasyPeasy
-A tool that helps domain administrators secure passwords in a domain by reciving a text file with all the details - usernames with duplicted passwords and usernames with weak passwords.
+Weak and duplicated passwords scanner.
 
 # Overview
-EasyPeasy is a tool that helps its users discover if there are weak passwords in a domain and if there are users with the same passwords.
-All the hashes will be deleted.
+EasyPeasy is a tool that scans for weak passwords by comparing the domain accounts' passwords to a database of common passwords.
+The tool also scans for accounts with identical passwords.
+All the passwords hashes will be deleted.
 
 The tool runs on PowerShell version 4 or 5.
-The tool uses Invoke-DCSync to PowerShell, which extarcts hashes from a domain. 
-The script is written in PowerShell, it is also contains C Sharp code. 
-The tool uses a database of common NTLM hashes.
+The tool uses Invoke-DCSync to PowerShell, which extarcts passwords hashes from Active Directory. 
 
 # Usage:
-The tool runs on PowerShell version 4 or 5, and only domain administrator can execute it.
+The tool runs on PowerShell version 4 or 5 and must be executed with domain administrator's privileges.
 
-option 1 - from command line:
+Option 1 - from the command line:
 - Open Windows PowerShell (PowerShell - with ExecutionPolicy ByPass), and change directory to the one where the files are downloaded (for example: cd C:\Users\administrator\Downloads).
 - Type ".\ep.ps1" and press Enter.
 
-option 2 - from the directory:
-- (make sure that all the files are downloaded and loacted in the same folder) Right click on ep.ps1, and click on 'Run with PowerShell' (PowerShell - with ExecutionPolicy ByPass).
+Option 2 - from the directory:
+- Right click on ep.ps1, and click on 'Run with PowerShell' (PowerShell - with ExecutionPolicy ByPass).
 
-# Results on the command line:
- After running the program, an output will be showed on PowerShell command line that will help the user understand what the program does - exmaple:
- 
+# Sample output:
+
  Getting Hashes from Active Directory...
  
 Comparing hashes...
@@ -41,10 +39,9 @@ done! check out the results in the path: C:\Users\ADMINI~1\AppData\Local\Temp\ea
 
 Press Enter to exit...
 # Results in a file:
- Check the output on the screen and go to the file by its path.
  If the there are no weak passwords or password duplicates in the domain the file (EPoutput.txt) will be empty.
  
- A demo for a file with the results (EPoutput.txt):
+Sample scan result file:
 
 =============================================================
 
