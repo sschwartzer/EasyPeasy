@@ -38,6 +38,7 @@ We found 0 Users with WEAK password
 Writing the results to file...
 
 done! check out the results in the path: C:\Users\ADMINI~1\AppData\Local\Temp\easypeasy\EPoutput.txt
+
 Press Enter to exit...
 # Results in a file:
  Check the output on the screen and go to the file by its path.
