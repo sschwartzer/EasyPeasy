@@ -24,15 +24,19 @@ option 2 - from the directory:
  After running the program, an output will be showed on PowerShell command line that will help the user understand what the program does:
  
  Getting Hashes from Active Directory...
+ 
 Comparing hashes...
+
 Checking if the hashes are 'strong'...
 
 We found 17 Users with the SAME password
+
 We found 0 Users with WEAK password
 
 =============================================================
 
 Writing the results to file...
+
 done! check out the results in the path: C:\Users\ADMINI~1\AppData\Local\Temp\easypeasy\EPoutput.txt
 Press Enter to exit...
 # Results in a file:
