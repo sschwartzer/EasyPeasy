@@ -18,7 +18,7 @@ option 1 - from command line:
 - Type ".\ep.ps1" and press Enter.
 
 option 2 - from the directory:
-- (sure that all the files are downloaded and loacted in the same folder) Right click on ep.ps1, and click on 'Run with PowerShell' (PowerShell - with ExecutionPolicy ByPass).
+- (make sure that all the files are downloaded and loacted in the same folder) Right click on ep.ps1, and click on 'Run with PowerShell' (PowerShell - with ExecutionPolicy ByPass).
 
 # Results on the command line:
  After running the program, an output will be showed on PowerShell command line that will help the user understand what the program does - exmaple:
