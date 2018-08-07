@@ -1,5 +1,5 @@
 # EasyPeasy
-A tool that helps domain administrators secure passwords in a domain by reciving a text file with all the details - usernames with duplicted passwords, amd usernames with a weak password.
+A tool that helps domain administrators secure passwords in a domain by reciving a text file with all the details - usernames with duplicted passwords and usernames with weak passwords.
 
 # Overview
 EasyPeasy is a tool that helps its users discover if there are weak passwords in a domain and if there are users with the same passwords.
