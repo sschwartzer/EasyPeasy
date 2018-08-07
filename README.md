@@ -4,6 +4,7 @@ Weak and duplicated passwords scanner.
 # Overview
 EasyPeasy is a tool that scans for weak passwords by comparing the domain accounts' passwords to a database of common passwords.
 The tool also scans for accounts with identical passwords.
+
 All the passwords hashes will be deleted.
 
 The tool runs on PowerShell version 4 or 5.
